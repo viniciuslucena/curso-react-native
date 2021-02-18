@@ -13,12 +13,14 @@ import { View, StyleSheet } from 'react-native'
 // import Diferenciar from './components/Diferenciar'
 // import ListaProdutos from './components/lista/ListaProdutos'
 // import DigiteSeuNome from './components/DigiteSeuNome'
-import Quadrado from './components/layout/Quadrado'
+// import FlexboxV1 from './components/layout/FlexboxV1'
+import Mega from './components/mega/Mega'
 
 export default () => (
     <View style={style.App}>
-        <Quadrado />
+        <Mega qtdeNumeros={7} />
         {/* 
+        <FlexboxV1 />
         <DigiteSeuNome />
         <ListProdutos />
         <Diferenciar />
